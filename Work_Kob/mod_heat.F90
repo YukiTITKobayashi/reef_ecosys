@@ -151,7 +151,8 @@ CONTAINS
 #ifdef LONGWAVE_IN
     lradi = up_long_wave_radi(Tmp(N))-dw_lwradi
 #else
-    lradi = net_long_wave_radi(Tmp(N),tair,Hum,cloud)
+    !lradi = net_long_wave_radi(Tmp(N),tair,Hum,cloud)
+    lradi = net_long_wave_radi(Tmp(N),tair,Hum,0.0d0)
 #endif
 
 ! Sensible heat (W m-2)

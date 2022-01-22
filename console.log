@@ -59,4 +59,12 @@ bash-3.2$ gfor[K[K[K[Kgfortran -DCHAMBER_SITE5 -fbounds-check  mod_geoc
 [01m[Kgfortran:[m[K [01;31m[Kerror: [m[Kmod_output.F90: No such file or directory
 [01m[Kgfortran:[m[K [01;31m[Kerror: [m[Kecosys_test5.F90: No such file or directory
 bash-3.2$ gfortran -DCHAMBER_SITE5 -fbounds-check  mod_geochem.F90 mod_param.F90 mod_foodweb.F90 mod_coral.F90 mod_macroalgae.F90 mod_seagrass.F90 mod_sedecosys.F90 mmod_reef_ecosys.F90 mod_input.F90 mod_output.F90 ecosys_test5.F90 -O2 -o ecosys_s5.exe[A[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C
+[K[A[C[C[C[C[C[C[C[C[C[Crune[K[K[K[Kh [K[Ksh runeco_s5.sh 
+[01m[Kgfortran:[m[K [01;31m[Kerror: [m[Kecosys_test5.F90: No such file or directory
+runeco_s5.sh: line 11: ./ecosys_s5.exe: No such file or directory
+bash-3.2$ pwd
+/Users/KobayashiYuki/Documents/reef_ecosys/Work_Kob
+bash-3.2$ pwdsh runeco_s5.sh 
+[01m[Kgfortran:[m[K [01;31m[Kerror: [m[Kecosys_test5.F90: No such file or directory
+runeco_s5.sh: line 11: ./ecosys_s5.exe: No such file or directory
+bash-3.2$ sh runeco_s5.sh 
